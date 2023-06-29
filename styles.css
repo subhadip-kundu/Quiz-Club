@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+    border: 1rem solid green;
+}
+
+.heading{
+    color: orange;
+    margin: 0.9rem;
+    text-decoration:2px underline red;
+}
+
+#quiz{
+    border: 1px solid cornflowerblue;
+    padding: 2rem;
+    line-height: 1.3rem;
+}
+.question{
+    color: rgb(90, 3, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.answers{
+    margin-bottom: .6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    margin-left: .1rem;
+}
+
+.question::before{
+    content: '🧿';
+}
+
+.answers::before{
+    content:'➡️'
+}
+
+/* #submit{
+
+} */
